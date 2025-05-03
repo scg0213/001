@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeadsMood - 비즈 악세사리</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black font-sans">
+
+  <!-- 헤더 -->
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+    <h1 class="text-2xl font-bold tracking-tight">BeadsMood</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#bracelets" class="hover:underline">팔찌</a>
+      <a href="#necklaces" class="hover:underline">목걸이</a>
+      <a href="#contact" class="hover:underline">문의</a>
+    </nav>
+  </header>
+
+  <!-- 메인 배너 -->
+  <section class="text-center py-12">
+    <h2 class="text-3xl font-bold">세상에 하나뿐인 비즈 악세사리</h2>
+    <p class="text-gray-500 mt-2">BeadsMood와 함께 감성을 담다 💫</p>
+  </section>
+
+  <!-- 팔찌 목록 -->
+  <section id="bracelets" class="max-w-5xl mx-auto px-4 py-10">
+    <h3 class="text-xl font-semibold mb-6 border-b border-black inline-block pb-1">💫 팔찌</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <!-- 상품 카드 1 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="비즈 팔찌 1" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">하트 비즈 팔찌</h4>
+        <p class="text-sm text-gray-500">핑크/화이트 조합으로 러블리한 무드</p>
+        <p class="mt-2 font-bold">₩8,000</p>
+      </div>
+
+      <!-- 상품 카드 2 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="비즈 팔찌 2" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">이니셜 팔찌</h4>
+        <p class="text-sm text-gray-500">이름 넣는 우정팔찌 맞춤제작</p>
+        <p class="mt-2 font-bold">₩10,000</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 목걸이 목록 -->
+  <section id="necklaces" class="max-w-5xl mx-auto px-4 py-10">
+    <h3 class="text-xl font-semibold mb-6 border-b border-black inline-block pb-1">💫 목걸이</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- 상품 카드 1 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="비즈 목걸이 1" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">컬러팝 비즈 목걸이</h4>
+        <p class="text-sm text-gray-500">Y2K 감성의 컬러풀 목걸이</p>
+        <p class="mt-2 font-bold">₩12,000</p>
+      </div>
+
+      <!-- 상품 카드 2 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="비즈 목걸이 2" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">하트 진주 목걸이</h4>
+        <p class="text-sm text-gray-500">러블리하면서도 우아한 분위기</p>
+        <p class="mt-2 font-bold">₩13,500</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 문의하기 -->
+  <section id="contact" class="bg-gray-50 py-10 px-4">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-xl font-semibold mb-4">문의하기</h3>
+      <p class="text-gray-600 mb-6">카카오톡 @BeadsMood 또는 인스타 DM으로 문의해주세요 💬</p>
+      <a href="https://www.instagram.com" target="_blank" class="inline-block bg-black text-white px-6 py-2 rounded-full hover:opacity-80">인스타그램 가기</a>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="text-center text-sm text-gray-400 py-6">
+    © 2025 BeadsMood. All rights reserved.
+  </footer>
+
+</body>
+</html>
